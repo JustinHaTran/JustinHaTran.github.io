@@ -15,17 +15,23 @@
       margin: 0;
     }
 
+    .container {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 40px;
+      color: #333;
+    }
+
     .login-container {
       background-color: white;
       padding: 40px;
       border-radius: 10px;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
       width: 300px;
-    }
-    
-    h1 {
-      font-size: 64px;
-      margin-bottom: 20px;
+      margin: 0 auto;
     }
 
     h2 {
@@ -59,14 +65,17 @@
   </style>
 </head>
 <body>
-  <h1>Budgeting with Boo</h1>
-  <div class="login-container">
-    <h2>Login</h2>
-    <form action="#" method="POST">
-      <input type="text" name="username" placeholder="Username" required />
-      <input type="password" name="password" placeholder="Password" required />
-      <button type="submit">Login</button>
-    </form>
+
+  <div class="container">
+    <h1>Budgeting with Boo</h1>
+    <div class="login-container">
+      <h2>Login</h2>
+      <form action="#" method="POST">
+        <input type="text" name="username" placeholder="Username" required />
+        <input type="password" name="password" placeholder="Password" required />
+        <button type="submit">Login</button>
+      </form>
+    </div>
   </div>
 
 </body>
